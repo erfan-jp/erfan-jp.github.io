@@ -6,7 +6,7 @@ window.PROFILE = {
   "linkedin": "https://www.linkedin.com/in/erfanjp1/",
   "bio": [
     "I’m a research staff member at MIT’s Laboratory for Information & Decision Systems (LIDS), working with Prof. Marzyeh Ghassemi.",
-    "My research focuses on **human-centered AI**, with an emphasis on developing **trustworthy language models** through faithful reasoning and alignment. I’m also interested in the relationship between **AI and human behavior**, including how models represent diverse human perspectives, whether they can reliably simulate human opinions and decisions, and how we can use AI to support decision-making in high-stakes domains such as healthcare.",
+    "My research focuses on **human-centered AI**, with an emphasis on developing **trustworthy language models** through faithful reasoning and alignment. I’m also interested in the intersection between **AI and human behavior**, including how models represent diverse human perspectives, whether they can reliably simulate human opinions and decisions, and how we can use AI to support decision-making in high-stakes domains such as healthcare.",
     "Previously, I worked with Prof. Serina Chang at Berkeley Artificial Intelligence Research (BAIR) on how language models represent public opinion and can be steered to reflect diverse human perspectives, and with Prof. Jure Leskovec at the Stanford Artificial Intelligence Lab (SAIL) on estimating the health impacts of Long COVID. I completed my B.A. in Computer Science at UC Berkeley."
   ],
   "news": [
