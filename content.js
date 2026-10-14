@@ -5,8 +5,9 @@ window.PROFILE = {
   "scholar": "https://scholar.google.com/citations?user=-Kt58g0AAAAJ",
   "linkedin": "https://www.linkedin.com/in/erfanjp1/",
   "bio": [
-    "I’m a research staff member at MIT’s Laboratory for Information & Decision Systems (LIDS), working with Prof. Marzyeh Ghassemi. My research focuses on trustworthy language models and alignment between LLMs and human reasoning.",
-    "Previously, I worked with Prof. Serina Chang at Berkeley Artificial Intelligence Research (BAIR) on public-opinion encoding and steerability in language models. We used probes, sparse autoencoders, and survey-based fine-tuning to study and predict opinions across demographic groups. At the Stanford Artificial Intelligence Lab (SAIL), I worked with Prof. Jure Leskovec on causal inference for Long COVID using claims from 245 million patients, studying selective-testing bias and validating estimates with placebo and negative-control tests."
+    "I’m a research staff member at MIT’s Laboratory for Information & Decision Systems (LIDS), working with Prof. Marzyeh Ghassemi.",
+    "My research focuses on **human-centered AI**, with an emphasis on developing **trustworthy language models** through faithful reasoning and alignment. I’m also interested in the relationship between **AI and human behavior**, including how models represent diverse human perspectives, whether they can reliably simulate human opinions and decisions, and how models and data can help inform public health decisions.",
+    "Previously, I worked with Prof. Jure Leskovec at the Stanford Artificial Intelligence Lab (SAIL) on causal inference for Long COVID and with Prof. Serina Chang at Berkeley Artificial Intelligence Research (BAIR) on public-opinion representation and steerability in language models. I completed my B.A. in Computer Science at UC Berkeley."
   ],
   "news": [
     {

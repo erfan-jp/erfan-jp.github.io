@@ -17,7 +17,17 @@ function linkedText(node,text,links=[]){
   }
 }
 document.getElementById('name').textContent=p.name;
-p.bio.forEach(t=>{const paragraph=el('p');linkedText(paragraph,t,p.bioLinks);append('bio',paragraph);});
+p.bio.forEach(t=>{
+  const paragraph=el('p');
+  t.split(/(\*\*[^*]+\*\*)/).forEach(part=>{
+    if(part.startsWith('**')&&part.endsWith('**')){
+      const emphasis=el('strong');
+      linkedText(emphasis,part.slice(2,-2),p.bioLinks);
+      paragraph.append(emphasis);
+    }else linkedText(paragraph,part,p.bioLinks);
+  });
+  append('bio',paragraph);
+});
 const socialIcons={
   Email:'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>',
   Scholar:'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="currentColor"><path d="M12 1 0 10l4.7 3.6a8.2 8.2 0 0 1 14.6 0L24 10 12 1Z"/><circle cx="12" cy="17" r="6.5"/></svg>',
