@@ -1,5 +1,10 @@
 window.PROFILE = {
   "name": "Erfan Jahanparast",
+  "site": {
+    "url": "https://erfan-jp.github.io/",
+    "title": "Erfan Jahanparast | AI Researcher",
+    "description": "Erfan Jahanparast is an AI researcher at MIT LIDS working on human-centered AI, trustworthy language models, and alignment. Explore his research and publications."
+  },
   "email": "erfanjp@mit.edu",
   "portrait": "assets/erfan-profile-retouched-v1.png",
   "scholar": "https://scholar.google.com/citations?user=-Kt58g0AAAAJ",
@@ -7,7 +12,7 @@ window.PROFILE = {
   "bio": [
     "I’m a research staff member at MIT’s Laboratory for Information & Decision Systems (LIDS), working with Prof. Marzyeh Ghassemi.",
     "My research focuses on **human-centered AI**, with an emphasis on alignment and developing **trustworthy language models**. I’m also interested in the intersection between **AI and human behavior**, including how models represent diverse human perspectives and how we can use AI to support decision-making in high-stakes domains such as healthcare.",
-    "Previously, I worked with Prof. Serina Chang at Berkeley Artificial Intelligence Research (BAIR) on how language models represent public opinion and can be steered to reflect diverse human perspectives, and with Prof. Jure Leskovec at the Stanford Artificial Intelligence Lab (SAIL) on estimating the health impacts of Long COVID. I completed my B.A. in Computer Science at UC Berkeley."
+    "Previously, I worked with Prof. Serina Chang at Berkeley Artificial Intelligence Research (BAIR) on how language models can be steered to reflect diverse human perspectives and how they represent public opinion, and with Prof. Jure Leskovec at the Stanford Artificial Intelligence Lab (SAIL) on estimating the health impacts of Long COVID. I completed my B.A. in Computer Science at UC Berkeley."
   ],
   "news": [
     {
