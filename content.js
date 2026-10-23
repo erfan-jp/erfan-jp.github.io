@@ -69,7 +69,7 @@ window.PROFILE = {
       "imagePanel": "left",
       "links": {
         "Paper": "https://www.medrxiv.org/content/10.64898/2026.02.17.26346448v1",
-        "Code": ""
+        "Code": "https://github.com/snap-stanford/longcovid"
       },
       "imageLabel": "Figure 1 (left)",
       "imageAlt": "Left side of Figure 1: comparison of conventional and test-based prospective Long COVID study designs.",
@@ -162,6 +162,9 @@ window.PROFILE = {
       "links": {
         "PDF": "assets/papers/long-term-personalization.pdf",
         "Code": ""
+      },
+      "linkStatuses": {
+        "Code": "coming soon"
       },
       "image": "assets/research/preferences-conflict-results.png",
       "imageLabel": "Figure 3",

@@ -82,7 +82,10 @@ function paper(item,id){
     body.append(authors,el('p','venue',item.venue));
   }
   const links=el('div','paper-links');
-  Object.entries(item.links).forEach(([t,u])=>links.append(link(t,u)));
+  Object.entries(item.links).forEach(([t,u])=>{
+    const status=item.linkStatuses&&item.linkStatuses[t];
+    links.append(!u&&status?el('span','missing',t+' ('+status+')'):link(t,u));
+  });
   if(links.childElementCount)body.append(links);
   body.append(el('p','',item.description));
   article.append(figure,body);
