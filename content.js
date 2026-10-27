@@ -2,7 +2,7 @@ window.PROFILE = {
   "name": "Erfan Jahanparast",
   "site": {
     "url": "https://erfan-jp.github.io/",
-    "title": "Erfan Jahanparast | AI Researcher",
+    "title": "Erfan Jahanparast",
     "description": "Erfan Jahanparast is an AI researcher at MIT LIDS working on human-centered AI, trustworthy language models, and alignment. Explore his research and publications."
   },
   "email": "erfanjp@mit.edu",
@@ -58,7 +58,13 @@ window.PROFILE = {
       "description": "We unify activation steering in a framework that separates the estimand from the estimator, clarifies the assumptions underlying existing methods, and extends steering from binary labels to continuous outcomes. For trustworthy alignment, we reduce total-variation error by an average of 16.5% across nine truthfulness benchmarks and six language models, and improve AxBench’s overall concept-steering score by 8.0%, compared with contrastive activation addition.",
       "tag": "Activation steering",
       "image": "assets/research/orthogonal-activation-space.png",
-      "links": {},
+      "links": {
+        "Paper": "https://arxiv.org/html/2610.33217v1",
+        "Code": ""
+      },
+      "linkStatuses": {
+        "Code": "coming soon"
+      },
       "imageLabel": "Conceptual illustration",
       "imageAlt": "Perpendicular activation-space vectors u and v, marked with a right angle and the equation u transpose v equals zero.",
       "imageWidth": 1254,
