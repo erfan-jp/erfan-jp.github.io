@@ -3,7 +3,7 @@ window.PROFILE = {
   "site": {
     "url": "https://erfan-jp.github.io/",
     "title": "Erfan Jahanparast",
-    "description": "Erfan Jahanparast is an AI researcher at MIT LIDS working on human-centered AI, trustworthy language models, and alignment. Explore his research and publications."
+    "description": "Personal website of Erfan Jahanparast, featuring research, publications, and projects on human-centered AI, trustworthy language models, and alignment."
   },
   "email": "erfanjp@mit.edu",
   "portrait": "assets/erfan-profile-retouched-v1.png",
